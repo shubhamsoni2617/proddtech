@@ -14,6 +14,8 @@ import Blogs from "./pages/blogs/Index";
 import Contact from "./pages/contact/Index";
 import ComingSoon from "./pages/coming-soon/index";
 
+// deployment 7 may
+
 function App() {
   return (
     <>
