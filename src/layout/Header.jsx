@@ -68,7 +68,7 @@ export default function Index() {
                   Services
                 </Link>
               </li>
-              <li className="inline-block">
+              {/* <li className="inline-block">
                 <Link
                   to="/products"
                   onClick={routeChange}
@@ -85,7 +85,7 @@ export default function Index() {
                 >
                   Blogs
                 </Link>
-              </li>
+              </li> */}
               <li className="inline-block">
                 <Link
                   to="/contact"
@@ -97,7 +97,7 @@ export default function Index() {
               </li>
               <li className="inline-block">
                 <a
-                  href="tel:+8801679383667"
+                  href="tel:+447424057154"
                   className="btn btn-1 ml-4 flex items-center"
                 >
                   <svg

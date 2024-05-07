@@ -53,7 +53,7 @@ export default function ContactArea() {
                 </svg>
                 <div>
                   <h5 className="text-xl font-semibold mb-1">Phone</h5>
-                  <a href="tel:+8801679383667">+8801679383667</a>
+                  <a href="tel:+447424057154">+447424057154</a>
                 </div>
               </li>
               <li className="flex gap-4 mb-6">
