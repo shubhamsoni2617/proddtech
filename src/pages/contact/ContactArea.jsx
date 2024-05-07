@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function ContactArea() {
   const handleSubmitForm = (e) => {
@@ -6,6 +6,12 @@ export default function ContactArea() {
 
     alert("Thank you for your interest!");
   };
+
+  useEffect(()=>{
+
+    window.scrollTo(0, 0);
+
+  },[])
 
   return (
     <section className="py-10 lg:py-20">

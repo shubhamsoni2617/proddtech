@@ -12,7 +12,7 @@ export default function BottomBannerSection() {
 					</div>
 					<div>
 						<p className="text-center md:text-right">
-						<Link href="/contact" className="btn btn-pink px-12">Contact Us</Link>
+						<div style={{cursor:'pointer'}} onClick={()=>window.scrollTo(0,0)} className="btn btn-pink px-12">Contact Us</div>
 						</p>
 					</div>
 				</div>

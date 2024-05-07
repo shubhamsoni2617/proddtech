@@ -12,7 +12,7 @@ export default function BottomBannerSection() {
 					</div>
 					<div>
 						<p className="text-center md:text-right">
-						<Link href="/contact" className="btn btn-pink px-12">Contact Us</Link>
+						<Link  to="/contact" className="btn btn-pink px-12">Contact Us</Link>
 						</p>
 					</div>
 				</div>
