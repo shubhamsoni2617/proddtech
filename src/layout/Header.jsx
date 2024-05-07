@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from "../assets/proddtech_logo.png";
+import MobileDrawer from "./MobileDrawer";
 
 export default function Index() {
   // local state
@@ -36,7 +38,14 @@ export default function Index() {
         <div className="grid lg:grid-cols-[2fr_5fr] grid-cols-[4fr_1fr] items-center gap-5">
           <div>
             <h3 className="font-bold text-3xl font-poppins text-slate-800">
-              <Link to="/">Prodd Tech</Link>
+              <Link to="/">
+              <img
+                src={Logo}
+                width={200}
+                alt="Logo img"
+                // className="absolute -left-14 -top-14 -z-10"
+              />
+              </Link>
             </h3>
           </div>
           <div className="lg:block hidden">
@@ -119,21 +128,7 @@ export default function Index() {
               </li>
             </ul>
           </div>
-          <div className="lg:hidden block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              fill="#000"
-              className="bi bi-list ml-auto"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fillRule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-          </div>
+        <MobileDrawer />
         </div>
       </div>
     </header>

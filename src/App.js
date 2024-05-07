@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
 // main css
-import  "./assets/css/index.css";
+import "./assets/css/index.css";
 
 // components
-import Header from './layout/Header';
-import Footer from './layout/Footer';
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
 import Home from "./pages/home/Index";
 import About from "./pages/about/Index";
 import Services from "./pages/services/Index";
@@ -23,26 +23,26 @@ function App() {
       <main>
         <Routes>
           {/* home route */}
-          <Route path="/" index element={ <Home /> } />
+          <Route path="/" index element={<Home />} />
 
           {/* about route */}
-          <Route path="/about" element={ <About /> } />
+          <Route path="/about" element={<About />} />
 
           {/* service route */}
-          <Route path="/services" element={ <Services /> } />
+          <Route path="/services" element={<Services />} />
 
           {/* service route */}
-          <Route path="/products" element={ <Products /> } />
+          <Route path="/products" element={<Products />} />
 
           {/* blog route */}
-          <Route path="/blogs" element={ <Blogs /> } />
+          <Route path="/blogs" element={<Blogs />} />
 
           {/* contact route */}
-          <Route path="/contact" element={ <Contact /> } />
+          <Route path="/contact" element={<Contact />} />
 
           {/* coming soon route */}
-          <Route path="/coming-soon" element={ <ComingSoon /> } />
-
+          <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
 

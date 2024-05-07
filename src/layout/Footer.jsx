@@ -98,7 +98,7 @@ let el =<div className="lg:py-12 py-8 bg-gray-50">
           </svg>
           <div>
             <h5 className="text-xl font-semibold">Address</h5>
-            <a href="#fs">Delhi, India</a>
+            <a href="#fs">6 Alexander Walk, Reading, Greater London, England</a>
           </div>
         </li>
       </ul>

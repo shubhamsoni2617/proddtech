@@ -78,9 +78,9 @@ export default function ContactArea() {
                 </svg>
                 <div>
                   <h5 className="text-xl font-semibold mb-1">Address</h5>
-                  <a href="https://goo.gl/maps/SHkRe94QMEhs8iKRA">
-                    Delhi, India
-                  </a>
+                  {/* <a href="https://goo.gl/maps/SHkRe94QMEhs8iKRA"> */}
+                  6 Alexander Walk, Reading, Greater London, England
+                  {/* </a> */}
                 </div>
               </li>
             </ul>
