@@ -15,7 +15,7 @@ export default function BannerSection() {
               Creative Product <br /> Development <br /> Company
             </h2>
             <p className="lg:text-xl text-base leading-7 mb-8">
-              We are a Product Development IT company in India who provides top
+              We are a Product Development IT company in England who provides top
               quality service.
             </p>
             <p>

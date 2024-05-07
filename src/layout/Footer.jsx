@@ -27,7 +27,7 @@ let el =<div className="lg:py-12 py-8 bg-gray-50">
         Prodd Tech
       </h3>
       <p className=" text-gray-700">
-        We are a Product Development based IT company in India who
+        We are a Product Development based IT company in England who
         provides top quality service.
       </p>
     </div>
